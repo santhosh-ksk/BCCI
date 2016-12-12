@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<!-- Website Title & Description for Search Engine purposes -->
+	<title>BCCI</title>
+	<meta name="description" content="">
+	<meta charset="utf-8">
+
+	<!-- Mobile viewport optimized -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!-- Bootstrap CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="includes/css/styles.css" rel="stylesheet">
+
+	<!-- Include Modernizr in the head, before any other Javascript -->
+	<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+</head>
+
+<body>
+
+	<div class="container">
+		<nav class="navbar navbar-fixed-top">
+			<div class="container">
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="#" class="navbar-brand">
+					<h4 class="custom">BCCI</h4>
+				</a>
+				<div class="nav-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="index.html">HOME</a>
+						</li>
+						<li><a href="pages/ranking.html">RANKING</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Matches <strong class="caret"></strong></a>
+
+							<ul class="dropdown-menu">
+								<li><a href="#">TEST</a></li>
+								<li><a href="#">ODI</a></li>
+								<li><a href="#">T20</a></li>
+								<li class="divider">
+									<a href="#"></a>
+								</li>
+								<li class="dropdown-header"><a href="#">More Services</a></li>
+								<li><a href="#">About us</a></li>
+								<li><a href="#">Contact us</a></li>
+							</ul>
+							<!--end of the drop memu-->
+						</li>
+					</ul>
+
+						<ul class="nav navbar-nav pull-right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>My account <strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li><a href="#"><span class="glyphicon glyphicon-wrench"></span>Setting</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-user"></span>Profile</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-th-list"></span>Billing</a></li>
+								<li class="divider"></li>
+								<li><a href="#"><span class="glyphicon glyphicon-off"></span>Sign out</a></li>
+							</ul>
+						</li>
+					</ul>
+					<!--end of nav pull-right-->
+				</div>
+				<!---end of nav-collapse---->
+			</div>
+			<!--end of the container inside nav-->
+		</nav>
+		<!--end of the nav bar-->
+
+		<div class="carousel slide col-md-12" id="myCarousel">
+
+			<!--Indicators-->
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+				<li data-slide-to="1" data-target="#myCarousel"></li>
+				<li data-slide-to="2" data-target="#myCarousel"></li>
+			</ol>
+
+			<!--wrapper for slides-->
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="images/carousel_medium_01.jpg" alt="ODI">
+					<div class="carousel-caption">
+						<h4>ODI CAPTAIN</h4>
+						<p>M S Dhoni is the captain for the Current Indian ODI team.</p>
+					</div>
+					<!--end carousel caption-->
+				</div>
+				<!--end item-->
+
+				<div class="item">
+					<img src="images/carousel_medium_02.jpg" alt="TEST">
+					<div class="carousel-caption">
+						<h4>TEST CAPTAIN</h4>
+						<p>Virat Kohli is the captain for the Current Indian Test team.</p>
+					</div>
+					<!--end carousel caption-->
+				</div>
+				<!--end item-->
+
+				<div class="item">
+					<img src="images/carousel_medium_03.jpg" alt="T20">
+					<div class="carousel-caption">
+						<h4>T20 CAPTAIN</h4>
+						<p>M S Dhoni is the captain for the Current Indian T20 team.</p>
+					</div>
+					<!--end carousel caption-->
+				</div>
+				<!--end item-->
+
+
+			</div>
+			<!--carousel inner-->
+
+			<!--control-->
+			<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+			<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+		</div>
+		<!--end of the myCarousel-->
+
+		<div class="row" id="bigCallout">
+
+			<div class="col-12">
+
+				<div class="alert alert-success alert-block fade in" id="successAlert">
+
+					<button type="button" class="close" data-dismiss="alert">&times;</button>
+
+					<h4>Success</h4>
+					<p>You just made this element display by using jQuery. Click the "x" in the top right corner to close this bad boy.</p>
+
+
+				</div>
+				<!---end of alert---->
+
+				<div class="well well-small visible-sm">
+
+					<a href="#" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span>Give  us a call</a>
+				</div>
+				<!--end well small-->
+
+				<div class="well">
+
+					<div class="page-header">
+
+						<h1>INDIAN Cricket <small>also known as men in blue.</small></h1>
+					</div>
+					<!--end page header-->
+					<p class="lead">
+						The Indian cricket team, also known as Team India and Men in Blue, represents India in international cricket. Governed by the Board of Control for Cricket in India (BCCI), it is a full member of the International Cricket Council (ICC).
+					</p>
+					<a href="#" class="btn btn-large btn-primary" id="alertMe">Click a nice big button!</a>
+				</div>
+				<!--end well-->
+			</div>
+			<!--end col-12-->
+		</div>
+		<!--end bigCallout-->
+
+		<div class="row" id="featuresHeading">
+
+			<div class="col-12">
+				<h2>TOP PERFORMERS</h2>
+				<p class="lead">Top performers of the Indian Cricket Team in all three formats.</p>
+			</div>
+			<!--end col-12-->
+
+		</div>
+
+		<div class="row" id="features">
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">
+							VIRAT KOHLI
+						</h3>
+					</div>
+					<!--end of the panel-heading-->
+					<img src="images/badge_odi_bat.jpg" alt="ODI_Batsman" class="img-circle">
+					<p>Top batsman in ICC T20 format </p>
+					<a href="http://www.relianceiccrankings.com/playerdisplay/t20/batting/?id=6939" target="_blank" class="btn btn-info btn-block">VIRAT KOHLI</a>
+				</div>
+				<!--panel-->
+			</div>
+			<!--col-sm-4-->
+
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">
+							VIRAT KOHLI
+						</h3>
+					</div>
+					<!--end of the panel-heading-->
+					<img src="images/badge_odi_bat.jpg" alt="ODI_Batsman" class="img-circle">
+					<p>Top Second batsman in ICC ODI format </p>
+					<a href="http://www.relianceiccrankings.com/playerdisplay/odi/batting/?id=6939" target="_blank" class="btn btn-warning btn-block">VIRAT KOHLI</a>
+				</div>
+				<!--panel-->
+			</div>
+			<!--col-sm-4-->
+
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">
+							VIRAT KOHLI
+						</h3>
+					</div>
+					<!--end of the panel-heading-->
+					<img src="images/badge_odi_bat.jpg" alt="ODI_Batsman" class="img-circle">
+					<p>Top third batsman in ICC TEST format </p>
+					<a href="http://www.relianceiccrankings.com/playerdisplay/test/batting/?id=6939" target="_blank" class="btn btn-danger btn-block">VIRAT KOHLI</a>
+				</div>
+				<!--panel-->
+			</div>
+			<!--col-sm-4-->
+		</div>
+		<!--end of the features-->
+
+		<div class="row" id="features_1">
+
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">
+							RAVICHANDRAN ASHWIN
+						</h3>
+					</div>
+					<!--end of the panel-heading-->
+					<img src="images/badge__test_ball.jpg" alt="ODI_Batsman" class="img-circle">
+					<p>Top Fifth bowler in ICC T20 format </p>
+					<a href="http://www.relianceiccrankings.com/playerdisplay/t20/bowling/?id=7103" target="_blank" class="btn btn-info btn-block">VIRAT KOHLI</a>
+				</div>
+				<!--panel-->
+			</div>
+			<!--col-sm-4-->
+
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">
+							AXAR PATEL
+						</h3>
+					</div>
+					<!--end of the panel-heading-->
+					<img src="images/badge_odi_ball.jpg" alt="ODI_Batsman" class="img-circle">
+					<p>Top Ninth bowler in ICC ODI format </p>
+					<a href="http://www.relianceiccrankings.com/playerdisplay/odi/bowling/?id=7407" target="_blank" class="btn btn-warning btn-block">VIRAT KOHLI</a>
+				</div>
+				<!--panel-->
+			</div>
+			<!--col-sm-4-->
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">
+							RAVICHANDRAN ASHWIN
+						</h3>
+					</div>
+					<!--end of the panel-heading-->
+					<img src="images/badge__test_ball.jpg" alt="ODI_Batsman" class="img-circle">
+					<p>Top bowler in ICC Test format </p>
+					<a href="http://www.relianceiccrankings.com/playerdisplay/test/bowling/?id=7103" target="_blank" class="btn btn-danger btn-block">VIRAT KOHLI</a>
+				</div>
+				<!--panel-->
+			</div>
+			<!--col-sm-4-->
+		</div>
+		<!--end of the features-->
+
+		<div class="row" id="moreInfo">
+			<div class="col-sm-6">
+				<h3>Captains of India</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+					dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<h4>CAPTAINS</h4>
+				<div class="list-group">
+					<a href="#" class="list-group-item">
+						<h4 class="list-group-item-heading">Sunil Gavaskar</h4>
+						<p class="list-group-item-text">Gavaskar is a recipient of the Indian civilian honours of the Padma Shri and the Padma Bhushan. In 2012, he was awarded the Col CK Nayudu Lifetime Achievement Award for Cricket in India.</p>
+					</a>
+					<a href="#" class="list-group-item">
+						<h4 class="list-group-item-heading">Kapil Dev</h4>
+						<p class="list-group-item-text">Kapil Dev Ramlal Nikhanj better known as Kapil Dev, is a former Indian cricketer. He captained the Indian cricket team which won the 1983 Cricket World Cup.</p>
+					</a>
+					<a href="#" class="list-group-item">
+						<h4 class="list-group-item-heading">Sourav Ganguly</h4>
+						<p class="list-group-item-text">Sourav Chandidas Ganguly affectionately known as Dada is a former Indian cricketer and captain of the Indian national team.</p>
+					</a>
+					<a href="#" class="list-group-item">
+						<h4 class="list-group-item-heading">Rahul Dravid</h4>
+						<p class="list-group-item-text">Rahul Dravid is a former Indian cricketer and captain, widely regarded as one of the greatest batsmen in the history of cricket.</p>
+					</a>
+					<a href="#" class="list-group-item">
+						<h4 class="list-group-item-heading">MS Dhoni</h4>
+						<p class="list-group-item-text">Mahendra Singh Dhoni is an Indian cricketer and the current captain of the Indian national cricket team in limited-overs formats.</p>
+					</a>
+					<a href="pages/ranking.html#rank" class="list-group-item">
+						<h4 class="list-group-item-heading">RANKING</h4>
+						<p class="list-group-item-text">Ranking for all three formats.</p>
+					</a>
+					<a href="pages/ranking.html#odi" class="list-group-item">
+						<h4 class="list-group-item-heading">ODI</h4>
+						<p class="list-group-item-text">Top performers in odi</p>
+					</a>
+					<a href="pages/ranking.html#t20" class="list-group-item">
+						<h4 class="list-group-item-heading">T20</h4>
+						<p class="list-group-item-text">Top performers in t20</p>
+					</a>
+					<a href="pages/ranking.html#test" class="list-group-item">
+						<h4 class="list-group-item-heading">TEST</h4>
+						<p class="list-group-item-text">Top performers in test</p>
+					</a>
+				</div>
+				<!--List-group-->
+
+			</div>
+			<!--end of col-sm-6-->
+			<div class="col-sm-6">
+				<h3>CRICKET GROUND</h3>
+				<div class="tabbable">
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#tab1" data-toggle="tab">EDEN GARDEN</a></li>
+						<li><a href="#tab2" data-toggle="tab">M A CHIDAMBARAM</a></li>
+						<li><a href="#tab3" data-toggle="tab">FROZ SHAH KOTLA</a></li>
+						<li><a href="#tab4" data-toggle="tab">M CHINNASWAMY</a></li>
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane active" id="tab1">
+							<h4><span class="glyphicon glyphicon-map-marker"></span>Our Location</h4>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117900.41114361113!2d88.2732241045537!3d22.564592930307153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02779ff7e5b9af%3A0x1d1b1884bdbbbd79!2sEden+Gardens!5e0!3m2!1sen!2sin!4v1481259847880"
+											width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+								dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+								dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+						<!--end of the tab-pane-->
+						<div class="tab-pane" id="tab2">
+							<h4><span class="glyphicon glyphicon-map-marker"></span>Our Location</h4>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.5733472968054!2d80.27709151437635!3d13.062807490796116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5268a0fe968105%3A0x5e53260f961d4aa9!2sMA+Chidambaram+Stadium!5e0!3m2!1sen!2sin!4v1481260291100"
+											width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+								dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+								dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+						<!--end of the tab-pane-->
+						<div class="tab-pane" id="tab3">
+							<h4><span class="glyphicon glyphicon-map-marker"></span>Our Location </h4>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.727470782943!2d77.24100331468037!3d28.637928982415648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfcd82caa5747%3A0x9eb7b9e749e5e743!2sFeroz+Shah+Kotla+Ground!5e0!3m2!1sen!2sin!4v1481260679448"
+											width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+								dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+								dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+						<!--end of the tab-pane-->
+						<div class="tab-pane" id="tab4">
+							<h4><span class="glyphicon glyphicon-map-marker"></span>Our Location </h4>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7775.915591385042!2d77.59294884822198!3d12.974551241096515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1664d3619b53%3A0xc13769784709aec!2sM+Chinnaswamy+Stadium!5e0!3m2!1sen!2sin!4v1481261062035"
+											width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+								dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+								dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+						<!--end of the tab-pane-->
+					</div>
+					<!--end of tab content-->
+				</div>
+				<!--end of tabbable-->
+			</div>
+			<!--col-sm-6-->
+		</div>
+		<!--row-->
+
+	</div>
+	<!--end of the container-->
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2">
+					<h6>Copyright &copy; 2016 BCCI</h6>
+				</div>
+				<div class="col-sm-4">
+					<h6>About Us</h6>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+						dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="col-sm-2">
+					<h6>Navigation</h6>
+					<ul class="unstyled">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Links</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-2">
+					<h6>Follow Us</h6>
+					<ul class="unstyled">
+						<li><a href="#">Twitter</a></li>
+						<li><a href="#">Facebook</a></li>
+						<li><a href="#">Google Plus</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>
+		window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')
+	</script>
+
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+</body>
+
+</html>
